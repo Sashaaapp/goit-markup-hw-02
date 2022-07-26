@@ -1,0 +1,267 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+}
+a {
+    text-decoration: none;
+}
+/* button */
+.button-solutions {
+    cursor: pointer;
+    width: 216px;
+    height: 50px;
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 4px;
+    border-color: transparent;
+    font-size: 16px;
+    line-height: 1.9;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+/* button-portfolio */
+.button-portfolio .button-portfolio-one {
+    cursor: pointer;
+    background-color: #F5F4FA;
+    color: #212121;
+    border-radius: 4px;
+    border-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+}
+.button-portfolio .button-portfolio-one:hover,
+.button-portfolio .button-portfolio-one:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+/* navigation */
+.nav {
+    height: 100%;
+    flex-direction: column;
+}
+.web{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+
+}
+.studio-text{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000
+}
+.logotype {
+    /* margin-left: 215px; */
+    /* margin-bottom: 20px; */
+    width: 145px;
+    height: 31px;
+    font-weight: 700;
+    font-size: 26px;
+    font-family: Raleway;
+}
+.site-navigation .studio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121; 
+}
+.site-navigation .studio:hover,
+.site-navigation .studio:focus {
+    color: #2196F3;
+}
+.site-navigation .portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.site-navigation .portfolio:hover,
+.site-navigation .portfolio:focus {
+    color: #2196F3;
+}
+.site-navigation .contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.site-navigation .contacts:hover,
+.site-navigation .contacts:focus {
+    color: #2196F3;
+}
+.contacts-nav .email-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.contacts-nav .email-nav:hover,
+.contacts-nav .email-nav:focus {
+    color: #2196F3;
+}
+.contacts-nav .tel-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.contacts-nav .tel-nav:hover,
+.contacts-nav .tel-nav:focus {
+    color: #2196F3;
+}
+/* cap */
+.cap {
+    background-color:#2F303A;
+    /* width: 1600px; */
+    /* padding: 200px 462px; */
+    /* margin-right: 200px; */
+}
+.text-solution {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* text-align: center;
+    padding-bottom: 30px;
+    padding-right: 200px;
+    padding-top: 200px; */
+}
+/* features */
+.fetures-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121; 
+}
+.fetures-text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;    
+}
+/* What do we do? */
+.What-do-we-do {
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    font-weight: 700;
+}
+/* Our team */
+.our-team {
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.name-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #212121;    
+}
+.position-team {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    line-height: 1.2;
+}
+/* footer */
+.footer {
+    background-color: #2F303A;
+    /* padding: 60px 215px;
+    flex-direction: column; */
+}
+/* address {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-weight: ;
+} */
+.footer-studio {
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    line-height: 1.2;
+}
+.addres-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    line-height: 1.7;
+}
+.information-footer .email {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.7;
+    font-style: normal;
+}
+.information-footer .email:hover,
+.information-footer .email:focus {
+    color: #2196F3
+}
+.information-footer .phone {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);    
+    line-height: 1.7;
+    font-style: normal;
+}
+.information-footer .phone:hover,
+.information-footer .phone:focus {
+    color: #2196F3
+}
+/* portfolio */
+.contacts-nav-portfolio .email-nav-portfolio {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.email-nav-portfolio:hover,
+.contacts-nav-portfolio .email-nav-portfolio:focus {
+    color: #2196F3;
+}
+.contacts-nav-portfolio .tel-nav-portfolio {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.tel-nav-portfolio:hover,
+.contacts-nav-portfolio .tel-nav-portfolio:focus {
+    color: #2196F3
+}
+/* .projects */
+.projects-name {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    line-height: 2;
+}
+.project-position {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    line-height: 1.9;
+}
